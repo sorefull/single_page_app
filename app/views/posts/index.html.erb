@@ -1,0 +1,15 @@
+<p id="notice"></p>
+<p id="alert"></p>
+
+
+<div class="posts">
+  <%= render partial: 'posts' %>
+</div>
+
+<br>
+
+<%= link_to 'New Post', new_post_path, class: :to_form, remote: true %>
+
+<br><br>
+
+<div class="form"></div>
